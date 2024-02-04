@@ -14,7 +14,7 @@
 }
 
 .sidebar-content p {
-    font-size: 25px;
+    font-size: 22px;
     margin-left: 10px;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .bawah-content p {
-    font-size: 25px;
+    font-size: 22px;
     margin-left: 10px;
 }
 
@@ -79,7 +79,7 @@
 } */
 .gnb {
     border-right: 0.5px solid #efefef;
-    width: 400px;
-    height: 100px
+    width: 300px;
+    height: auto;
 
 }
