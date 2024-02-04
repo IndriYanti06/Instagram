@@ -1,0 +1,280 @@
+.main {
+    background-color: #fafafa;
+    padding-top: 20px;
+    width: 75%;
+
+    /* align-items: flex-start; */
+
+}
+.sub {
+    background-color: #fafafa;
+    padding-top: 20px;
+    padding-left: 90px;
+    width: 75%;
+
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+.instastory{
+    width: 100%;
+    height: 150px;
+    background: #fff;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.storycard {
+    width: 80px;
+    max-width: 80px;
+    margin-right: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.img-profile{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin: 10px;
+    background: linear-gradient(45deg, #ffe600, #ff0080 80%);
+    padding: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.friends-profile{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin: 10px;
+    background: rgb(3, 171, 3);
+    padding: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.username {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    text-align: center;
+}
+
+.feed {
+    background-color: white;
+    width: 500px;
+    height: auto;
+    margin-right: 30px;
+
+    border-radius: 8px;
+    border: 0.5px solid lightgray;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+    font-size: 13px;
+}
+
+.account {
+    width: 400px;
+    font-size: 14px;
+    /* margin-top: 20px; */
+    justify-content: flex-end;
+    margin-left: 30px;
+}
+
+.account-content {
+    width: 100%;
+
+}
+
+.account-content>li {
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.account-content>li>a {
+    color: rgb(7, 112, 224);
+    font-size: 14px;
+}
+
+.account-content>li>p {
+    margin-left: 20px;
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+/* .account-content>li>p > span :first-child{
+    font-weight: bold;
+    color: black;
+}
+.account-content>li>p > span :last-child{
+    color: gray;
+    } */
+
+.img-wrap {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0.5px solid #f2f2f2;
+    display: flex;
+}
+
+li.suggestions>span {
+    color: gray;
+}
+
+li.suggestions>a {
+    color: black;
+}
+
+.about {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.about>a {
+    color: lightgray;
+    font-size: 11px;
+    margin-right: 2px;
+}
+
+.name {
+    color: lightgray;
+    font-size: 11px;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.profile {
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+
+
+}
+
+.profile>p {
+    margin-left: 18px;
+    margin-right: auto;
+}
+
+.profile>p>span:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: auto;
+}
+
+.imgs>div>img {
+    width: 100%;
+}
+
+.feed-icons {
+    width: 92%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.feed-icons>img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.feed-icons>img:last-child {
+    margin-left: auto;
+}
+
+.likes {
+    margin-right: auto;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.caption {
+    width: 92%;
+    margin-top: 5px;
+}
+
+.caption>span.title {
+    font-weight: bold;
+}
+
+.caption>span.hastag {
+    color: darkblue;
+}
+
+.count {
+    margin-left: 20px;
+    margin-right: auto;
+    color: lightgray;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.time {
+    margin-left: 20px;
+    margin-right: auto;
+    font-size: 10px;
+    color: lightgray;
+}
+
+
+.comment {
+    width: 95%;
+    border-bottom: 1px solid rgb(150, 150, 150);
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.comment-box {
+    width: 95%;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.comment-box>input {
+    border: none;
+    width: 95%;
+    margin-right: auto;
+    font-size: 13px;
+    background-color: transparent;
+    font-weight: lighter;
+}
+
+.comment-box>input:focus {
+    outline: none;
+    background-color: none;
+    text-indent: 0px;
+}
+
+.comment-box>input::placeholder {
+    color: lightgray;
+}
+
+.swiper {
+    width: 470px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.swiper-pagination-bullet {
+    background-color: white;
+}

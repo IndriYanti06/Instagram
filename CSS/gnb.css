@@ -1,0 +1,85 @@
+ /* saya menambahkan beberapa style soalnya untuk menyamakan tampilan di instagramnya yg sekarang  */
+
+ .gnb-content {
+    padding-top: 10px;
+    margin: auto;
+}
+
+
+.sidebar-content {
+    font-weight: 500px;
+    padding: 15px;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.sidebar-content p {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.bawah-content {
+    font-weight: 500px;
+    padding: 10px;
+    justify-content: flex-start;
+}
+
+.bawah-content p {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.logo {
+    margin-bottom: 5px;
+    margin-right: auto;
+
+}
+
+/* .logo>i {
+    margin-left: 3px;
+    font-size: 12px;
+} */
+
+/* .search-box{
+    background-color: #efefef;
+    width: 268px;
+    height: 36px;
+    border-radius: 8px;
+    margin-right: auto;
+
+}
+
+.search-box > img {
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.search-box > input {
+    border: none;
+    margin-right: auto;
+    font-size: 16px;
+    background-color: transparent;
+    font-weight: lighter;
+
+    background-image: url('../image/icons/11.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: 25px;
+
+    margin-left: 10px;
+}
+.search-box > input:focus{
+    outline: none;
+    background-image: none;
+    text-indent: 0px;
+}
+.icons > img {
+    margin: 10px;
+
+} */
+.gnb {
+    border-right: 0.5px solid #efefef;
+    width: 400px;
+    height: 100px
+
+}
