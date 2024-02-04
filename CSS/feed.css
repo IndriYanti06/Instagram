@@ -9,7 +9,7 @@
 .sub {
     background-color: #fafafa;
     padding-top: 20px;
-    padding-left: 70px;
+    padding-left: 90px;
     width: 75%;
 
     align-items: flex-start;
@@ -51,7 +51,7 @@
 }
 .username {
     font-weight: bold;
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: auto;
